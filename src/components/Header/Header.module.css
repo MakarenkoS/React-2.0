@@ -1,0 +1,17 @@
+.header {
+    grid-area: h;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    width: 70px;
+  }
+  
+
+  .loginBlock {
+    padding-right: 50px;
+    padding-top: 15px;
+  }

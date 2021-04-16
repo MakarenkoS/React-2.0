@@ -1,0 +1,17 @@
+
+
+.selectedPage {
+    font-weight: bold;
+    color: green
+}
+.paginatorList {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paginatorList span {
+    padding: 3px;
+    margin: 4px;
+    border: 1px solid black;
+    cursor: pointer
+}

@@ -1,0 +1,59 @@
+.header {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+  .description {
+    padding: 10px;
+  }
+
+  .ava {
+    width: 100px;
+    height: 100px;
+  }
+
+  .jobLooking {
+    position: relative;
+  }
+
+
+
+  .jobTrue, .jobFalse {
+   position: relative;
+   
+   font-size: 0;
+  }
+
+  .jobTrue::after, .jobFalse::after  {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    left: 10px;
+    top: -15px;
+  }
+
+  .jobTrue::after {
+    background-color: green
+  }
+
+  .jobFalse::after {
+    background-color: red;
+  }
+
+  .info {
+    padding-lefT: 10px;
+  }
+
+  .contact {
+    padding-left: 10px;
+  }
+
+  .contact input {
+    background-color: rgb(241, 238, 241);
+  }
